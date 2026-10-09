@@ -4,8 +4,11 @@ name: product-catalog-ci
 
 permissions:
   contents: write
-  
+
 on:
+  push:
+    branches:
+      - githubcicheck
   pull_request:
     branches:
       - main
