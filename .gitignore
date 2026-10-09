@@ -54,3 +54,10 @@ test/tracetesting/tracetesting-vars.yaml
 *.apk
 
 !src/currency/build
+
+# Terraform generated files and local state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
